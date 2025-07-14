@@ -2,7 +2,10 @@
   "name": "my-project",
   "version": "1.0.0",
   "scripts": {
-    "dev": "python -m http.server 3000",
+    "dev": "npx serve -s . -l 3000"
     "start": "python -m http.server 3000"
+  }
+  "devDependencies": {
+    "serve": "^14.2.1"
   }
 }
